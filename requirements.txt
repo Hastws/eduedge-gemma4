@@ -1,0 +1,13 @@
+# Core
+ollama>=0.4.0
+gradio>=5.0.0
+Pillow>=10.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+httpx>=0.27.0
+pydantic>=2.0.0
+
+# Development
+pytest>=8.0.0
+black>=24.0.0

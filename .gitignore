@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Env
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Data (keep .gitkeep)
+data/*
+!data/.gitkeep
+
+# Assets (keep .gitkeep)
+assets/*
+!assets/.gitkeep
+
+# Model artifacts (too large for GitHub — download separately)
+runs/
+*.gguf
+*.safetensors
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (Ollama stores them in ~/.ollama, not here)
+*.gguf
+*.bin
+*.safetensors
