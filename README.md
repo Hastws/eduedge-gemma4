@@ -15,7 +15,7 @@ Modern AI tutoring tools require cloud connectivity, subscriptions, and often fu
 
 **EduEdge** is an offline-first, multimodal AI tutor that runs entirely on a local device—no internet required after a one-time setup. Powered by **Gemma 4 E4B via Ollama**, it fits comfortably on a low-end laptop (≈10 GB RAM) and delivers frontier-level intelligence at the edge.
 
-![EduEdge demo flow](assets/demo_flow.png)
+![EduEdge demo — Space running](images/image.png)
 
 ### Key Features
 
