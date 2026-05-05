@@ -2,6 +2,8 @@
 
 > **The Gemma 4 Good Hackathon** · [kaggle.com/competitions/gemma-4-good-hackathon](https://www.kaggle.com/competitions/gemma-4-good-hackathon)
 > Deadline: May 18, 2026
+>
+> 📺 **Demo Video**: [youtu.be/Kmw18c0UqRg](https://youtu.be/Kmw18c0UqRg) · 🤗 **Live Space**: [dorus4/eduedge-gemma4](https://huggingface.co/spaces/dorus4/eduedge-gemma4) · 🔬 **LoRA Adapter**: [dorus4/eduedge-gemma4-lora](https://huggingface.co/dorus4/eduedge-gemma4-lora)
 
 ---
 
