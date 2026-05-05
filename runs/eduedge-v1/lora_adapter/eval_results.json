@@ -1,0 +1,26 @@
+[
+  {
+    "task": "quiz_gen",
+    "base_score": 0.8333333333333334,
+    "ft_score": 0.8333333333333334,
+    "delta": 0.0
+  },
+  {
+    "task": "concept_explain",
+    "base_score": 1.0,
+    "ft_score": 0.3333333333333333,
+    "delta": -0.6666666666666667
+  },
+  {
+    "task": "study_plan",
+    "base_score": 0.8,
+    "ft_score": 0.6,
+    "delta": -0.20000000000000007
+  },
+  {
+    "task": "multilingual",
+    "base_score": 0.6666666666666666,
+    "ft_score": 1.0,
+    "delta": 0.33333333333333337
+  }
+]

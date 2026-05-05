@@ -280,11 +280,12 @@ The entire stack is open-source and requires only a laptop or Raspberry Pi after
 
 ## Hackathon Submission Checklist
 
-- [ ] Kaggle Writeup (≤ 1,500 words)
-- [ ] YouTube video (≤ 3 min)
-- [ ] Public GitHub repository (this repo)
-- [ ] Live demo link (Hugging Face Spaces / local)
-- [ ] Cover image for media gallery
+- [x] Kaggle Writeup (≤ 1,500 words) — submitted
+- [x] YouTube video (≤ 3 min) — [youtu.be/Kmw18c0UqRg](https://youtu.be/Kmw18c0UqRg)
+- [x] Public GitHub repository — [Hastws/eduedge-gemma4](https://github.com/Hastws/eduedge-gemma4)
+- [x] Live demo — [huggingface.co/spaces/dorus4/eduedge-gemma4](https://huggingface.co/spaces/dorus4/eduedge-gemma4)
+- [x] Fine-tuned adapter — [dorus4/eduedge-gemma4-lora](https://huggingface.co/dorus4/eduedge-gemma4-lora)
+- [x] Cover image — `images/cover.png`
 
 ---
 

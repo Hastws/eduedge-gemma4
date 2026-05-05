@@ -26,6 +26,10 @@ assets/*
 
 # Model artifacts (too large for GitHub — download separately)
 runs/
+!runs/**/adapter_config.json
+!runs/**/processor_config.json
+!runs/**/eval_results.json
+!runs/**/chat_template.jinja
 *.gguf
 *.safetensors
 *.bin
