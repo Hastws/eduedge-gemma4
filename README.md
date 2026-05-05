@@ -248,6 +248,24 @@ python finetune/eval.py --adapter runs/eduedge-v1/lora_adapter
 
 ---
 
+## Deployment Modes
+
+EduEdge ships in two complementary configurations:
+
+| | Local (primary) | HF Space (live demo) |
+|---|---|---|
+| **Model** | Fine-tuned `eduedge-gemma4` (E4B + LoRA) | `google/gemma-4-31B-it` (base) |
+| **Backend** | Ollama (localhost) | HF Serverless Inference API |
+| **Offline** | ✅ Fully offline | ❌ Requires internet |
+| **Hardware** | Any laptop with ≥10 GB RAM | HF-hosted CPU |
+| **Fine-tuning applied** | ✅ Yes | ❌ No |
+
+> **Why the difference?** The HF Serverless Inference API does not support dynamically loading custom LoRA adapters onto a running model. The Space therefore uses the nearest available Gemma 4 checkpoint (`31B-it`) to demonstrate the full application logic — multimodal input, native function calling, multilingual UI, and tool loop — while the actual fine-tuned adapter (`dorus4/eduedge-gemma4-lora`) is used in the local/offline deployment that is the project's real-world target.
+>
+> **The fine-tuning contribution is independent of the Space.** Judges can verify the adapter at [dorus4/eduedge-gemma4-lora](https://huggingface.co/dorus4/eduedge-gemma4-lora) and reproduce training locally with `python finetune/train.py`.
+
+---
+
 ## Impact
 
 EduEdge targets communities where the alternative is **no AI assistance at all**:

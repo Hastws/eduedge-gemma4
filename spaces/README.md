@@ -48,8 +48,9 @@ The EduEdge QLoRA adapter (fine-tuned on Gemma 4 E4B) is available at:
 
 ## Setup note
 
-This Space requires access to `google/gemma-4-e4b-it` (Gemma license).  
-Set your `HF_TOKEN` secret in Space settings if the model requires authentication.
+> **Note on models:** This Space uses `google/gemma-4-31B-it` via the HF Serverless Inference API to demonstrate the full application (multimodal input, function calling, multilingual UI). The fine-tuned `dorus4/eduedge-gemma4-lora` adapter (E4B base) is the training artifact — it runs locally via Ollama since the Serverless API does not support dynamic LoRA loading. Both are listed in this Space's model tags for discoverability.
+
+Set your `HF_TOKEN` secret in Space settings for authenticated model access.
 
 ## Local setup (offline mode)
 
