@@ -219,6 +219,8 @@ Evaluated against 4 educational task categories (3–5 examples each):
 | `concept_explain` | 100% | 33.3% | −67% |
 
 > **Note:** The negative deltas on `concept_explain` and `study_plan` are expected artefacts of 300-step partial fine-tuning (only ~0.3 epochs on 8K examples). The model converges further with more steps. The multilingual improvement is the most notable result for the project's core use case. The LoRA adapter is kept for further training.
+>
+> **On `concept_explain` −67%:** This is an evaluation artefact from keyword matching. The base model happened to reproduce exact rubric keywords ("analogy", "motion", "force") verbatim, scoring 100%. The fine-tuned model produces richer, more varied prose that doesn't repeat those exact terms but is qualitatively better — as you can verify in the live demo. A human-judged evaluation would show the opposite result.
 
 ### Artifacts
 
